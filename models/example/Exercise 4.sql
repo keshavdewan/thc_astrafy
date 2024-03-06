@@ -1,6 +1,3 @@
-/* Create a table (1 line per order) for all orders in the year 2022 and 2023; this table is similar to orders with an additional column:
- the qty_product column that gives the quantity of products in the order, for all orders in 2022 and 2023 */
-
 SELECT 
     o.date_date,
     o.customers_id,

@@ -1,0 +1,1 @@
+SELECT * FROM `bi-thc.Sales.Sales_Recruitment`

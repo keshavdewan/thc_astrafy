@@ -10,7 +10,7 @@ WITH ranked_orders AS (
       ELSE 'VIP'
     END AS orders_segmentation
   FROM 
-    `bi-thc.Orders.Orders_Recruitment` o
+    {{ ref('orders_recruitment') }} o
   WHERE EXTRACT(YEAR FROM o.date_date) = 2023
 )
 SELECT * FROM ranked_orders

@@ -1,23 +1,6 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
-    description: "A starter dbt model"
-    columns:
-      - name: id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-
-  - name: my_second_dbt_model
-    description: "A starter dbt model"
-    columns:
-      - name: id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
 
   - name: Sales_Recruitment
     description: "Sales occured in the year 2022 and 2023, comprises information about the clients, orders, products, transactions and turnover w.r.t time"

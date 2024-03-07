@@ -15,7 +15,7 @@ models:
         tests:
           - not_null
   
-  - name: Orders_Recruitment
+  - name: orders_recruitment
     description: "Orders occured in the year 2022 and 2023, comprises information about the clients and orders"
     columns:
       - name: date_date, 
